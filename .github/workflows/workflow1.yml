@@ -1,0 +1,9 @@
+name: First task
+on: push
+jobs:
+  test:
+   runs-on: ubuntu-latest
+   steps:
+     - name: print vishal
+       run: echo "Hello vishal"
+  
